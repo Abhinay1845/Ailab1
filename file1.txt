@@ -1,1 +1,35 @@
 "First File" 
+
+
+Commands: 
+
+git init
+
+echo "First" >> file1.txt
+
+git add file1.txt
+
+git commit -m "Initial commit"
+
+git remote ""
+
+git branch -M main
+
+git push -u origin main
+
+git checkout -b feature1
+
+echo "New Feature" >> file2.txt
+
+git add file2.txt
+
+git push -u origin feature1
+
+git checkout main
+
+git pull
+
+git merge feature1
+
+git branch -d feature1
+
